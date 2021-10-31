@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  text-align: center
+}
+
+
+.main form,
+.main .details {
+  width: 600px;
+  border: 1px solid #333;
+  margin: 15px;
+  padding: 23px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: ghostwhite;
+  border-style: solid;
+  border-radius: 0.5rem;
+}
+
+.main .details > div {
+  margin: 15px;
+  font-weight: 200;
+}
+
+.main .details > h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 300px;
+}
+
+input{
+  padding: 15px;
+  margin: 10px
+}
+
+
+button {
+  background-color: rgb(58, 51, 161);
+  color: #ccc;
+  padding: 10px;
+  margin: 5px;
+  border-radius:  1rem;
+  width: 10rem;
+}
+ button:hover {
+   background-color: azure;
+   color: black;
+ }
+
+h3 {
+  margin: 5px;
+  padding: 15px 15px 0px 15px;
+  font-weight: 300;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: red;
+}
